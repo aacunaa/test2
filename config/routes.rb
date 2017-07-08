@@ -4,5 +4,6 @@ Rails.application.routes.draw do
   	get '/business', :to => "business#index"
   	get '/business/:business_id/stage',	:to => "stage#index"
   	get '/business/:business_id/stage/new',	:to => "stage#new"
+  	get '/business/new', :to => "business#new"
 	end
 end
